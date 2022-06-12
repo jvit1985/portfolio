@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(123, 121, 124);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 20px 35px;
+    background-color: rgb(134, 190, 223);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+    text-shadow: 0 0 10px rgb(123, 121, 124);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header a {
+    text-decoration: none;
+    color:rgb(123, 121, 124);
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgb(123, 121, 124);
+}
+
+section {
+    display: block;
+}
+
+.hero {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.hero img {
+    flex: 0 1 400px;
+}
+
+#about-me {
+    padding: 20px;
+}
+
+#about-me h2 {
+    padding-top: 25px;
+    text-align: center;
+    margin: auto;
+    font-size: 36px;
+    border-bottom: dotted 5px rgb(134, 190, 223);
+}
+
+#about-me p {
+    padding-top: 25px;
+    text-align: center;
+    flex-wrap: wrap;
+    color: rgb(57, 159, 79);
+    font-size: 20px;
+}
+
+#projects div {
+    margin: 25px auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+#projects h2 {
+    font-size: 36px;
+    text-align: center;
+    margin: auto;
+    border-bottom: dotted 5px rgb(134, 190, 223);
+}
+
+.whole-box {
+    padding: 10px;
+}
+
+#projects h3 {
+    color:rgb(134, 190, 223);
+    font-size: 25px;
+    flex: 1 100%;
+}
+
+#projects img {
+    flex: 0 1 400px;
+    max-width: 400px;
+}
+
+#projects h4 {
+    font-size: 18px;
+    line-height: 1.5;
+    color:rgb(123, 121, 124);
+    flex: 1 100%;
+}
+
+#contact-me {
+    background-color: rgb(134, 190, 223);
+}
+
+#contact-me h2 {
+    padding: 20px;
+    text-align: center;
+    font-size: 36px;
+}
+
+#contact-me nav {
+    margin: 7px 0;
+}
+
+#contact-me nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+#contact-me a {
+    text-decoration: none;
+    color:rgb(123, 121, 124);
+}
+
+#contact-me nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgb(123, 121, 124);
+}
